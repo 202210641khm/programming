@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;            /* 가로로 배치 */
+  justify-content: space-between; /* 양쪽 끝에 배치 */
+  align-items: center;      /* 세로로 중앙 정렬 */
+  padding: 10px;            /* 여백 */
+  background-color: #ffffff;   /* 배경 색상 */
+}
+
+.navbar .logo {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 20px;  /* 버튼 사이 간격 */
+}
+
+.navbar .links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar .links a:hover {
+  color: #f39c12;  /* 호버시 색상 변경 */
+}
+
+/* 네모 박스 스타일 */
+.box {
+  width: 200px;  /* 가로 크기 */
+  height: 50px; /* 세로 크기 */
+  background-color: rgb(211, 240, 250); /* 배경색 */
+  border: 2px solid rgb(70, 70, 193); /* 파란색 테두리 */
+  border-radius: 5px; /* 모서리를 둥글게 */
+  text-align: center; /* 글씨 가운데 정렬 */
+  line-height: 20px; /* 세로 가운데 정렬 */
+  font-weight: bold; /* 글씨 굵게 */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* 전체 화면을 꽉 채우기 */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* flexbox를 사용하여 가운데 정렬 */
+.container {
+  display: flex;
+  flex-direction: column; /*세로로 정렬*/
+  justify-content: center; /*세로방향 가운데 정렬*/
+  align-items: center; /*가로방향 가운데 정렬*/
+  height: 100vh; /*화면 전체 높이*/
+  text-align: center; /* 글자정렬*/
+}
+
+button {
+  width: 120px;        /* 버튼 가로 크기 */
+  height: 50px;        /* 버튼 세로 크기 */
+  line-height: 50px;   /* 높이와 같게 설정하면 세로 가운데 정렬됨 */
+  text-align: center;  /* 가로 가운데 정렬 */
+  border: 2px solid blue;
+  background-color: lightblue;
+  font-weight: bold;
+  border-radius: 5px; /* 모서리를 둥글게 */
+}
+
