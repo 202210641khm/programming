@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .poster img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .info {
+    flex: 1;
+    font-family: sans-serif;
+  }
+  
+  .details {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .left, .right {
+    line-height: 1.6;
+  }
+  
+  .price {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .reserve {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #c9b6ee;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+  }

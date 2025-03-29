@@ -29,9 +29,9 @@
 /* 네모 박스 스타일 */
 .box {
   width: 200px;  /* 가로 크기 */
-  height: 50px; /* 세로 크기 */
-  background-color: rgb(211, 240, 250); /* 배경색 */
-  border: 2px solid rgb(70, 70, 193); /* 파란색 테두리 */
+  height: 30px; /* 세로 크기 */
+  background-color: rgb(180, 180, 180); /* 배경색 */
+  border: 2px solid rgb(0, 0, 0); /* 파란색 테두리 */
   border-radius: 5px; /* 모서리를 둥글게 */
   text-align: center; /* 글씨 가운데 정렬 */
   line-height: 20px; /* 세로 가운데 정렬 */
@@ -63,12 +63,11 @@ html, body {
 
 button {
   width: 120px;        /* 버튼 가로 크기 */
-  height: 50px;        /* 버튼 세로 크기 */
-  line-height: 50px;   /* 높이와 같게 설정하면 세로 가운데 정렬됨 */
+  height: 30px;        /* 버튼 세로 크기 */
+  line-height: 30px;   /* 높이와 같게 설정하면 세로 가운데 정렬됨 */
   text-align: center;  /* 가로 가운데 정렬 */
-  border: 2px solid blue;
-  background-color: lightblue;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(180, 180, 180);
   font-weight: bold;
   border-radius: 5px; /* 모서리를 둥글게 */
 }
-
